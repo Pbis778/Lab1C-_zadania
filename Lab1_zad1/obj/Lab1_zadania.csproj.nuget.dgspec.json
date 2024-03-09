@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piotrek\\source\\repos\\Lab1_zadania\\Lab1_zadania.csproj": {}
+    "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1_zad1\\Lab1_zadania.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piotrek\\source\\repos\\Lab1_zadania\\Lab1_zadania.csproj": {
+    "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1_zad1\\Lab1_zadania.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piotrek\\source\\repos\\Lab1_zadania\\Lab1_zadania.csproj",
+        "projectUniqueName": "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1_zad1\\Lab1_zadania.csproj",
         "projectName": "Lab1_zadania",
-        "projectPath": "C:\\Users\\Piotrek\\source\\repos\\Lab1_zadania\\Lab1_zadania.csproj",
+        "projectPath": "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1_zad1\\Lab1_zadania.csproj",
         "packagesPath": "C:\\Users\\Piotrek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piotrek\\source\\repos\\Lab1_zadania\\obj\\",
+        "outputPath": "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1_zad1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Piotrek\\AppData\\Roaming\\NuGet\\NuGet.Config",
