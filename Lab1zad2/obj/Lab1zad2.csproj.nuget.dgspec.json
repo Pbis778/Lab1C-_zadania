@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piotrek\\source\\repos\\Lab1zad2\\Lab1zad2.csproj": {}
+    "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1zad2\\Lab1zad2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piotrek\\source\\repos\\Lab1zad2\\Lab1zad2.csproj": {
+    "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1zad2\\Lab1zad2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piotrek\\source\\repos\\Lab1zad2\\Lab1zad2.csproj",
+        "projectUniqueName": "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1zad2\\Lab1zad2.csproj",
         "projectName": "Lab1zad2",
-        "projectPath": "C:\\Users\\Piotrek\\source\\repos\\Lab1zad2\\Lab1zad2.csproj",
+        "projectPath": "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1zad2\\Lab1zad2.csproj",
         "packagesPath": "C:\\Users\\Piotrek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piotrek\\source\\repos\\Lab1zad2\\obj\\",
+        "outputPath": "C:\\Users\\Piotrek\\Documents\\GitHub\\Lab1C-_zadania\\Lab1zad2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Piotrek\\AppData\\Roaming\\NuGet\\NuGet.Config",
