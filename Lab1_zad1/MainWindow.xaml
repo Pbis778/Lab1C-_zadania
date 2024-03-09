@@ -1,0 +1,28 @@
+﻿<Window x:Class="Lab1_zadania.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab1_zadania"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10,10,507,10">
+            <TextBlock Text="Podaj współczynniki równania ax^2 + bx + c = 0:" FontWeight="Bold"/>
+            <StackPanel Orientation="Horizontal" Margin="0 5">
+                <TextBlock Text="a:" Margin="0 0 5 0"/>
+                <TextBox x:Name="txtBoxA" Width="50"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 5">
+                <TextBlock Text="b:" Margin="0 0 5 0"/>
+                <TextBox x:Name="txtBoxB" Width="50"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 5">
+                <TextBlock Text="c:" Margin="0 0 5 0"/>
+                <TextBox x:Name="txtBoxC" Width="50"/>
+            </StackPanel>
+            <Button x:Name="btnOblicz" Content="Oblicz" Click="ObliczButton_Click" Margin="0 10" Width="180"/>
+            <TextBlock x:Name="txtWynik" Visibility="Collapsed" FontWeight="Bold" Margin="0 10"/>
+        </StackPanel>
+    </Grid>
+</Window>
