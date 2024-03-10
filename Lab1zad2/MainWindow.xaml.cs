@@ -27,11 +27,11 @@ namespace Lab1zad2
             double stepWidth = 20;
             double stepHeight = 20;
 
-            double startX = (canvas.ActualWidth - rows * stepWidth) / 2;
             double startY = 50;
 
             for (int i = 0; i < rows; i++)
             {
+                double startX = (canvas.ActualWidth - (i + 1) * stepWidth) / 2;
                 for (int j=0; j <= i; j++)
                 {
                     double x = startX + j * stepWidth;

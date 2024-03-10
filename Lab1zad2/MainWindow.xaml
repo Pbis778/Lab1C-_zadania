@@ -8,6 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnPiramida" Content="Rysuj piramidę" HorizontalAlignment="Left" Margin="26,31,0,0" VerticalAlignment="Top" Width="112" Click="btnPiramida_Click"/>
-        <Canvas x:Name="canvas" Height="434.04"/>
+        <Canvas x:Name="canvas"/>
     </Grid>
 </Window>
