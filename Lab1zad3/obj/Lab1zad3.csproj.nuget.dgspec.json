@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pbist\\OneDrive\\Pulpit\\lab6_Bistyga_Piotr\\Lab1zad3\\Lab1zad3.csproj": {}
+    "C:\\Users\\pbist\\OneDrive\\Dokumenty\\GitHub\\Lab1C-_zadania\\Lab1zad3\\Lab1zad3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pbist\\OneDrive\\Pulpit\\lab6_Bistyga_Piotr\\Lab1zad3\\Lab1zad3.csproj": {
+    "C:\\Users\\pbist\\OneDrive\\Dokumenty\\GitHub\\Lab1C-_zadania\\Lab1zad3\\Lab1zad3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pbist\\OneDrive\\Pulpit\\lab6_Bistyga_Piotr\\Lab1zad3\\Lab1zad3.csproj",
+        "projectUniqueName": "C:\\Users\\pbist\\OneDrive\\Dokumenty\\GitHub\\Lab1C-_zadania\\Lab1zad3\\Lab1zad3.csproj",
         "projectName": "Lab1zad3",
-        "projectPath": "C:\\Users\\pbist\\OneDrive\\Pulpit\\lab6_Bistyga_Piotr\\Lab1zad3\\Lab1zad3.csproj",
+        "projectPath": "C:\\Users\\pbist\\OneDrive\\Dokumenty\\GitHub\\Lab1C-_zadania\\Lab1zad3\\Lab1zad3.csproj",
         "packagesPath": "C:\\Users\\pbist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pbist\\OneDrive\\Pulpit\\lab6_Bistyga_Piotr\\Lab1zad3\\obj\\",
+        "outputPath": "C:\\Users\\pbist\\OneDrive\\Dokumenty\\GitHub\\Lab1C-_zadania\\Lab1zad3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pbist\\AppData\\Roaming\\NuGet\\NuGet.Config",
