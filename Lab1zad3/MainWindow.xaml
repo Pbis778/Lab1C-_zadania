@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab1zad3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="grid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-
-    </Grid>
+        Title="MainWindow" Height="450" Width="800"
+        MinHeight="100" MinWidth="100" MaxHeight="800" MaxWidth="800">
+    <Viewbox>
+        <Grid x:Name="grid" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Viewbox>
 </Window>

@@ -29,7 +29,7 @@ namespace Lab1zad3
         private void drawChessboard()
         {
             int rows = 8;
-            int cols = 8;
+            int cols = 12;
             double squareSize = 50;
 
             for (int i = 0; i < rows; i++)
