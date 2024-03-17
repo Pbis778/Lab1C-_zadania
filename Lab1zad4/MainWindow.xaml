@@ -2,49 +2,51 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="600" Width="800" VerticalAlignment="Center" HorizontalAlignment="Center">
-    <StackPanel Margin="250, 0, 250, 0">
-        <Grid>
-            <TextBlock Text="Pytanie 1: Co jest przydatne w programowaniu?" FontWeight="Bold"/>
-            <CheckBox x:Name="cbx1Question1" Content="odpowiednie myślenie" Margin="0,20,0,0"/>
-            <CheckBox x:Name="cbx1Question2" Content="kreatywność"  Margin="0,40,0,0"/>
-            <CheckBox x:Name="cbx1Question3" Content="siła"  Margin="0,60,0,0"/>
-        </Grid>
+    <Viewbox>
+        <StackPanel Margin="250, 0, 250, 0">
+            <Grid>
+                <TextBlock Text="Pytanie 1: Co jest przydatne w programowaniu?" FontWeight="Bold"/>
+                <CheckBox x:Name="cbx1Question1" Content="odpowiednie myślenie" Margin="0,20,0,0"/>
+                <CheckBox x:Name="cbx1Question2" Content="kreatywność"  Margin="0,40,0,0"/>
+                <CheckBox x:Name="cbx1Question3" Content="siła"  Margin="0,60,0,0"/>
+            </Grid>
 
-        <Grid>
-            <TextBlock Text="Pytanie 2: Ile trwają laboratoria z JWP?" Margin="0, 10, 0, 0" FontWeight="Bold"/>
-            <ComboBox x:Name="cbxQuestion2" Margin="20,40,20,0">
-                <ComboBoxItem Content="3 godziny"/>
-                <ComboBoxItem Content="2 godziny i 15 minut"/>
-                <ComboBoxItem Content="45 minut"/>
-            </ComboBox>
-        </Grid>
+            <Grid>
+                <TextBlock Text="Pytanie 2: Ile trwają laboratoria z JWP?" Margin="0, 10, 0, 0" FontWeight="Bold"/>
+                <ComboBox x:Name="cbxQuestion2" Margin="20,40,20,0">
+                    <ComboBoxItem Content="3 godziny"/>
+                    <ComboBoxItem Content="2 godziny i 15 minut"/>
+                    <ComboBoxItem Content="45 minut"/>
+                </ComboBox>
+            </Grid>
 
-        <Grid Height="119">
-            <TextBlock Text="Pytanie 3: Gdzie znajduje się nasza uczelnia?" Margin="0, 10, 0, 0" FontWeight="Bold"/>
-            <ListBox x:Name="lstBoxQ3" Margin="20,40,20,10">
-                <ListBoxItem Content="Gdańsk"/>
-                <ListBoxItem Content="Katowice"/>
-                <ListBoxItem Content="Kraków"/>
-            </ListBox>
-        </Grid>
+            <Grid Height="119">
+                <TextBlock Text="Pytanie 3: Gdzie znajduje się nasza uczelnia?" Margin="0, 10, 0, 0" FontWeight="Bold"/>
+                <ListBox x:Name="lstBoxQ3" Margin="20,40,20,10">
+                    <ListBoxItem Content="Gdańsk"/>
+                    <ListBoxItem Content="Katowice"/>
+                    <ListBoxItem Content="Kraków"/>
+                </ListBox>
+            </Grid>
 
-        <Grid>
-            <TextBlock Text="Pytanie 4: Na którym semestrze studiów jesteśmy?" FontWeight="Bold"/>
-            <StackPanel Margin="0,20">
-                <RadioButton x:Name="q4radioBtn1" Content="1"/>
-                <RadioButton x:Name="q4radioBtn2" Content="8"/>
-                <RadioButton x:Name="q4radioBtn3" Content="4"/>
-            </StackPanel>
-        </Grid>
-            
-        <Grid>
-            <TextBlock Text="Pytanie 5: Jaki jest pierwszy dzień tygodnia?" Margin="0, 10, 0, 0" FontWeight="Bold"/>
-            <TextBox x:Name="txtBoxQ5" Margin="0, 30, 0, 0"/>
-        </Grid>
+            <Grid>
+                <TextBlock Text="Pytanie 4: Na którym semestrze studiów jesteśmy?" FontWeight="Bold"/>
+                <StackPanel Margin="0,20">
+                    <RadioButton x:Name="q4radioBtn1" Content="1"/>
+                    <RadioButton x:Name="q4radioBtn2" Content="8"/>
+                    <RadioButton x:Name="q4radioBtn3" Content="4"/>
+                </StackPanel>
+            </Grid>
 
-        <Grid Height="56">
-            <Button x:Name="chkBtn" Content="Sprawdź" Click="chkButton_Click" Margin="0, 20, 0, 0" FontWeight="Bold"/>
-        </Grid>
+            <Grid>
+                <TextBlock Text="Pytanie 5: Jaki jest pierwszy dzień tygodnia?" Margin="0, 10, 0, 0" FontWeight="Bold"/>
+                <TextBox x:Name="txtBoxQ5" Margin="0, 30, 0, 0"/>
+            </Grid>
 
-    </StackPanel>
+            <Grid Height="56">
+                <Button x:Name="chkBtn" Content="Sprawdź" Click="chkButton_Click" Margin="0, 20, 0, 0" FontWeight="Bold"/>
+            </Grid>
+
+        </StackPanel>
+    </Viewbox>
 </Window>

@@ -58,6 +58,8 @@ namespace Lab1zad4
             }
 
             MessageBox.Show($"Końcowy wynik: {totalScore}");
+
+            Application.Current.Shutdown();
         }
     }
 }
