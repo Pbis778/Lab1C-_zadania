@@ -21,6 +21,18 @@ namespace Lab1zad2
             InitializeComponent();
         }
 
+        void rysujKwadrat(double x, double y, double stepWidth, double stepHeight, SolidColorBrush color)
+        {
+            Rectangle rect = new Rectangle();
+            rect.Width = stepWidth;
+            rect.Height = stepHeight;
+            rect.Fill = color;
+
+            Canvas.SetLeft(rect, x);
+            Canvas.SetTop(rect, y);
+            canvas.Children.Add(rect);
+        }
+
         private void btnPiramida_Click(object sender, RoutedEventArgs e)
         {
             int rows = 8;
@@ -31,19 +43,13 @@ namespace Lab1zad2
 
             for (int i = 0; i < rows; i++)
             {
-                double startX = (canvas.ActualWidth - (i + 1) * stepWidth) / 2;
-                for (int j=0; j <= i; j++)
+                double startX = (canvas.ActualWidth - (2 * i + 1) * stepWidth) / 2;
+                for (int j = 0; j < 2 * i + 1; j++)
                 {
                     double x = startX + j * stepWidth;
                     double y = startY + i * stepHeight;
-                    Rectangle rect = new Rectangle();
-                    rect.Width = stepWidth;
-                    rect.Height = stepHeight;
-                    rect.Fill = Brushes.Black;
 
-                    Canvas.SetLeft(rect, x);
-                    Canvas.SetTop(rect, y);
-                    canvas.Children.Add(rect);
+                    rysujKwadrat(x, y, stepWidth, stepHeight, Brushes.Black);
                 }
             }
         }
